@@ -1,0 +1,25 @@
+name: disparate_benefits
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - torchaudio=0.12.1
+  - cudatoolkit=11.6
+  - pandas
+  - openpyxl
+  - numpy
+  - scipy
+  - tqdm
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - scikit-learn
+  - pip
+  - pip:
+      - wget
+      - gdown
+      - error-parity
